@@ -47,7 +47,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 // Geometry and Material
 const radius = 0.5;
 const segments = 32;
-const textures = ["./csilla/color.png", "./earth/map.jpg", "./venus/map.jpg", "./volcanic/color.png"  ]
+const textures = ["../csilla/color.png", "../earth/map.jpg", "../venus/map.jpg", "../volcanic/color.png"  ]
 const spheres = new THREE.Group();
 
 const orbitRadius = 2.5;
