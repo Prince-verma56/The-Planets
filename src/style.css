@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bellina';
+    src: url('./assets/fonts/Bellina.ttf') format('truetype'); /* Adjust the path and format as needed */
+  }
+  h1 {
+    font-family: 'Bellina', sans-serif;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+}
