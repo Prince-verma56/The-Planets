@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    <div class="w-full h-screen overflow-hidden ">
+      <div class="w-full h-screen  absolute top-0 left-0 z-[2] ">
+        <nav class="text-white w-full flex justify-between items-center py-4 px-3 font-['Montserrat']">
+          <h3 class="text-5xl font-bold  ">The Planets</h3>
+          <div class="flex gap-7 text-white">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+
+        <div class="text-white font-bold   absolute whitespace-nowrap leading-10 top-[10%] left-1/2 -translate-x-1/2 text-center">
+          <div class="w-full h-[9em] md:h-[9em] overflow-hidden" >
+            <h1 class="h-full heading  text-7xl md:text-9xl font-['Bellina'] tracking-tighter">Earth</h1>
+            <h1 class="h-full heading  text-7xl md:text-9xl font-['Bellina'] tracking-tighter">Venus</h1>
+            <h1 class="h-full heading  text-7xl md:text-9xl font-['Bellina'] tracking-tighter">Mars</h1>
+            <h1 class="h-full heading  text-7xl md:text-9xl font-['Bellina'] tracking-tighter">Uranus</h1>
+
+          </div>
+          <p class="font-['Gilroy'] font-semibold">Lorem ipsum dolor sit lorem dolor sit lorem . </p>
+          <div class="w-full h-1 bg-gradient-to-r from-transparent via-white to-transparent mt-4 animate-pulse"></div>
+        </div>
+
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    
+    
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
